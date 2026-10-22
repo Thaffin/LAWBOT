@@ -1,0 +1,10 @@
+[
+  {
+    "question": "What is the fixture value?",
+    "answer": "The fixture value is blue."
+  },
+  {
+    "question": "How is the fixture checked?",
+    "answer": "It is checked using a test."
+  }
+]

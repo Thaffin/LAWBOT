@@ -1,0 +1,28 @@
+{
+  "name": "indian-legal-rag",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "pipeline"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+  "dev": "npm run dev --workspace @indian-legal-rag/frontend",
+  "dev:backend": "npm run dev --workspace @indian-legal-rag/backend",
+  "dev:server": "node --watch src/server.js",
+  "build": "npm run build --workspace @indian-legal-rag/frontend",
+  "test": "npm run test --workspaces --if-present",
+  "lint": "npm run lint --workspaces --if-present",
+  "pipeline:validate": "npm run validate --workspace @indian-legal-rag/pipeline",
+  "pipeline:clean": "npm run clean --workspace @indian-legal-rag/pipeline",
+  "pipeline:chunk": "npm run chunk --workspace @indian-legal-rag/pipeline",
+  "pipeline:index": "npm run index --workspace @indian-legal-rag/pipeline",
+  "pipeline:evaluate": "npm run evaluate --workspace @indian-legal-rag/pipeline",
+  "chunks": "node scripts/build-chunks.js",
+  "index": "node scripts/index-qdrant.js",
+  "start": "node src/server.js"
+}
+}

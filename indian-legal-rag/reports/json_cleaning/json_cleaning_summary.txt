@@ -1,0 +1,15 @@
+INDIAN LEGAL JSON VALIDATION AND CLEANING REPORT
+Run timestamp (UTC): 2026-10-22T08:16:04.119597+00:00
+Processing version: 1.0.0
+Python version: 3.15.1
+Input directory: data/raw
+Output directory: data/cleaned
+
+Missing files: (none)
+Errors: 3
+  - constitution_qa.json: invalid JSON at line 1, column 1: Expecting value
+  - ipc_qa.json: invalid JSON at line 1, column 1: Expecting value
+  - crpc_qa.json: invalid JSON at line 1, column 1: Expecting value
+
+Important: quality flags are review signals, not proof that a legal record is invalid.
+Inspect all schema paths and manually verify a sample against authoritative legal sources.

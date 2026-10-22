@@ -1,0 +1,14 @@
+{
+  "name": "@indian-legal-rag/pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "echo TODO: data validation implementation pending",
+    "clean": "echo TODO: data cleaning implementation pending",
+    "chunk": "echo TODO: legal chunking implementation pending",
+    "index": "echo TODO: embedding and indexing implementation pending",
+    "evaluate": "echo TODO: retrieval evaluation implementation pending",
+    "test": "node --test",
+    "lint": "echo TODO: linting configuration pending"
+  }
+}

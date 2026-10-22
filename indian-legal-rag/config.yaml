@@ -1,0 +1,14 @@
+qdrant_collection_name: indian_legal_qa
+embedding_model: BAAI/bge-m3
+embedding_device: cpu
+embedding_batch_size: 16
+top_k: 8
+final_context_k: 5
+similarity_threshold: null
+chunk_size_chars: 4000
+chunk_overlap_chars: 300
+upsert_batch_size: 64
+exact_index_path: data/reports/exact_search.sqlite3
+llm_timeout_seconds: 45
+llm_temperature: 0.1
+log_level: INFO

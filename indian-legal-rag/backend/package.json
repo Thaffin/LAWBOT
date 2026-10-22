@@ -1,0 +1,14 @@
+{
+  "name": "@indian-legal-rag/backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo TODO: Express server implementation pending",
+    "start": "echo TODO: Express server implementation pending",
+    "test": "node --test",
+    "lint": "echo TODO: linting configuration pending"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
